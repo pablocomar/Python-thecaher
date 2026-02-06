@@ -1,0 +1,6 @@
+python-lsp-server
+mss
+pytesseract
+pillow
+SpeechRecognition
+pyaudio
