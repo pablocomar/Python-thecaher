@@ -37,3 +37,16 @@ python -m voice_assistant.cli --listen
 - OCR için `mss`, `pytesseract` ve `pillow` gereklidir.
 - Sesli komut için `SpeechRecognition` ve `pyaudio` gereklidir.
 - LSP için örnek olarak `python-lsp-server` (pylsp) beklenir.
+
+
+### İsimden 1-16 Numara + Görsel Eşleme (Masaüstü)
+
+```bash
+python name_image_assigner.py
+```
+
+Uygulama açılınca:
+- Adınızı yazıp **Numara Ata** butonuna basın.
+- 1 ile 16 arasında rastgele bir sayı atanır.
+- Sayıya karşılık gelen JPG gösterilir (`1.jpg` ... `16.jpg`).
+- Görselleri bir klasörden toplu yükleyebilir veya tek tek atayabilirsiniz.
